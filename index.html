@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pallet_calculator</title>
+        <link href="css/styles.css" rel="stylesheet">
+		<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+		<div class = "wrepper">
+			<div class = "calcBlock">
+				<span>Тип паллета</span>
+				<select id = "size">
+						<option value = "800">EUR</option>
+						<option value = "1000">FIN</option>
+						<option value = "1100">CHN</option>
+						<option value = "1200">USA</option>
+				</select></br>
+				<span>Ширина</span>
+				<input type = "text" class = "xItem"><span>мм</span></br>
+				<span>Длинна</span>
+				<input type = "text" class = "zItem"><span>мм</span></br>
+				<span>Высота</span>
+				<input type = "text" class = "yItem"><span>мм</span></br>
+				<input type = "button" value = "Рассчитать" class = "calcButton"></br>
+				
+				<span>В ряду</span>
+				<div class = "xPallet"></div>
+				<span>В высоту</span>
+				<div class = "yPallet"></div>
+				<span>Общее колличество</span>
+				<div class = "staks"></div>
+			</div>
+		<div class = "flex">
+			
+		</div>
+    </div>
+       
+    </body>
+</html>
